@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url('https://www.klasse.be/wp/wp-content/uploads/2018/02/Sprookjesboom-Overview-kopieren.jpg');
+}
+.Q1{
+    height: 150px;
+    width: 200px;
+    background-color: rgba(0, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+display: none;
+}
+.Q5{
+    background: rgba(179, 255, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+.Q6{
+    display: flex;
+    justify-content: space-around;
+}
+.Q7{
+    display: flex;
+    margin-left: 10px;
+   justify-content: space-around;
+}
+.Q10{
+    margin-right:35px ;
+    list-style: none;
+}
+.Q90{
+    color:aquamarine;
+    text-decoration: none;
+    font-size:20px;
+    transition: color 0.3s;
+}
+.Q90:hover{
+    color: crimson;
+}
+.Q8{
+    border:none;
+    background: #511194;
+    color:#0fc793;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+.Q18{
+    width:90%;
+    max-width: 1200px;
+    margin:50px auto;
+    padding: 20px;
+    background:rgba(0, 255, 255,0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.4);
+    backdrop-filter: blur(5px);
+    color:white;
+    margin-top: 100px;
+}
+.Q19{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /*4 стовпчики;/**/ 
+    gap: 40px;
+}
+.Q16{
+    background: rgba(255, 255,255 ,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.Q100{
+    width: 100%;
+    height: 260px; /*20px*/
+    object-fit: cover; /*20px*/
+    display: block; /*20px*/
+}
+.Q16:hover{
+    transform: translateY(-30px);
+}
+.Q99{
+    width: 700px;
+    height: 330px;
+    z-index: 1;
+    background: rgb(33, 60, 57, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 4%;
+    padding: 5px 20px;
+    display: none;
+}
+.Q20{
+    border:none;
+    background: #d8195c;
+    color:#18c70f;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+.Q25{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Q26{
+    margin-left: 100px;
+    margin-bottom: 50px;;
+}
